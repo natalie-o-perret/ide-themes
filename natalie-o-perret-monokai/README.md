@@ -1,8 +1,8 @@
 # natalie-o-perret-monokai
 
-A port of the [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/items?itemName=74th.monokai-charcoal-high-contrast) VS Code theme (by [74th](https://github.com/74th)) to IntelliJ IDEA and all JetBrains IDEs.
+Port of [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/items?itemName=74th.monokai-charcoal-high-contrast) (by [74th](https://github.com/74th)) to JetBrains IDEs.
 
-> Part of [natalie-o-perret-ide-themes](https://github.com/natalie-o-perret/natalie-o-perret-ide-themes).
+Part of [ide-themes](https://github.com/natalie-o-perret/ide-themes).
 
 ## Palette
 
@@ -20,19 +20,11 @@ A port of the [Monokai Charcoal High Contrast](https://marketplace.visualstudio.
 | Selection            | `#6688CC` |
 | Gutter / Line number | `#43B9D8` |
 
-## Installation
+## Install
 
-### Manual import (recommended)
+1. **Settings > Editor > Color Scheme > gear > Import Scheme**, pick `natalie-o-perret-monokai.icls`.
 
-1. Copy `natalie-o-perret-monokai.icls` anywhere on your machine.
-2. In your JetBrains IDE open **Settings → Editor → Color Scheme**.
-3. Click the gear icon **⚙** → **Import Scheme…**
-4. Select the `.icls` file.
-5. Apply.
-
-### Via the IDE settings folder
-
-Alternatively, drop the `.icls` file into your IDE's color schemes directory:
+Or drop the file into your IDE's colors folder:
 
 | OS      | Path                                                                 |
 | ------- | -------------------------------------------------------------------- |
@@ -40,11 +32,7 @@ Alternatively, drop the `.icls` file into your IDE's color schemes directory:
 | macOS   | `~/Library/Application Support/JetBrains/<product><version>/colors/` |
 | Windows | `%APPDATA%\JetBrains\<product><version>\colors\`                     |
 
-Restart the IDE and pick **natalie-o-perret-monokai** in **Settings → Editor → Color Scheme**.
-
-## Compatibility
-
-Works with all JetBrains products: IntelliJ IDEA, GoLand, Rider, WebStorm, PyCharm, RustRover, CLion, DataGrip, etc.
+Works with IntelliJ IDEA, GoLand, Rider, WebStorm, PyCharm, RustRover, CLion, DataGrip, etc.
 
 ## License
 

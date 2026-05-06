@@ -1,26 +1,26 @@
-# natalie-o-perret-ide-themes
+# ide-themes
 
-Personal collection of IDE color scheme ports — taking VS Code themes I like and bringing them to JetBrains IDEs.
+VS Code themes I like, ported to JetBrains IDEs.
 
 ## Themes
 
-| Theme | Based on | IDE format |
-|---|---|---|
+| Theme                                                 | Based on                                                                                                                  | Format            |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------- |
 | [natalie-o-perret-monokai](natalie-o-perret-monokai/) | [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/items?itemName=74th.monokai-charcoal-high-contrast) | JetBrains `.icls` |
 
-## Installation (JetBrains)
+## Install
 
-1. Download the `.icls` file for the theme you want.
-2. **Settings → Editor → Color Scheme → ⚙ → Import Scheme…**
-3. Select the file and apply.
+1. Grab the `.icls` file.
+2. In the IDE: **Settings > Editor > Color Scheme > gear > Import Scheme**
+3. Pick the file and apply.
 
-Or drop it directly into your IDE's colors folder:
+Or drop it straight into the colors folder:
 
-| OS | Path |
-|---|---|
-| Linux | `~/.config/JetBrains/<product><version>/colors/` |
-| macOS | `~/Library/Application Support/JetBrains/<product><version>/colors/` |
-| Windows | `%APPDATA%\JetBrains\<product><version>\colors\` |
+| OS      | Path                                                                 |
+| ------- | -------------------------------------------------------------------- |
+| Linux   | `~/.config/JetBrains/<product><version>/colors/`                     |
+| macOS   | `~/Library/Application Support/JetBrains/<product><version>/colors/` |
+| Windows | `%APPDATA%\JetBrains\<product><version>\colors\`                     |
 
 ## License
 
