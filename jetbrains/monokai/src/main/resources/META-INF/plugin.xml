@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>io.github.natalie-o-perret.natalie-perret</id>
-    <name>natalie-perret</name>
+    <id>io.github.natalie-o-perret.natalie-perret-monokai</id>
+    <name>natalie-perret-monokai</name>
     <version>0.1.0</version>
     <vendor url="https://github.com/natalie-o-perret/ide-themes">natalie-o-perret</vendor>
 

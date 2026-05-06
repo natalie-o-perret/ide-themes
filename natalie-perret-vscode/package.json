@@ -1,5 +1,5 @@
 {
-  "name": "natalie-perret-monokai",
+  "name": "natalie-perret",
   "displayName": "natalie-perret",
   "description": "Personal spin on Monokai Charcoal High Contrast — 9 accent color variants",
   "version": "0.1.0",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/natalie-o-perret/ide-themes"
   },
-  "homepage": "https://github.com/natalie-o-perret/ide-themes/tree/main/vscode/monokai",
+  "homepage": "https://github.com/natalie-o-perret/ide-themes/tree/main/natalie-perret-vscode",
   "bugs": {
     "url": "https://github.com/natalie-o-perret/ide-themes/issues"
   },

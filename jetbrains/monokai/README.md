@@ -22,8 +22,8 @@ Part of [ide-themes](https://github.com/natalie-o-perret/ide-themes).
 
 ## Variants
 
-| File                                 | Accent                   |
-| ------------------------------------ | ------------------------ |
+| File                         | Accent                   |
+| ---------------------------- | ------------------------ |
 | `natalie-perret.icls`        | `#43B9D8` cyan (default) |
 | `natalie-perret-gray.icls`   | `#8f8f8f`                |
 | `natalie-perret-green.icls`  | `#A6E22E`                |
