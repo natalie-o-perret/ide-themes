@@ -16,7 +16,8 @@
       { "label": "natalie-perret-monokai-purple", "uiTheme": "vs-dark", "path": "./themes/natalie-perret-monokai-purple.json" },
       { "label": "natalie-perret-monokai-red",    "uiTheme": "vs-dark", "path": "./themes/natalie-perret-monokai-red.json" },
       { "label": "natalie-perret-monokai-white",  "uiTheme": "vs-dark", "path": "./themes/natalie-perret-monokai-white.json" },
-      { "label": "natalie-perret-monokai-yellow", "uiTheme": "vs-dark", "path": "./themes/natalie-perret-monokai-yellow.json" }
+      { "label": "natalie-perret-monokai-yellow",  "uiTheme": "vs-dark", "path": "./themes/natalie-perret-monokai-yellow.json" },
+      { "label": "natalie-perret-monokai-manjaro", "uiTheme": "vs-dark", "path": "./themes/natalie-perret-monokai-manjaro.json" }
     ]
   }
 }

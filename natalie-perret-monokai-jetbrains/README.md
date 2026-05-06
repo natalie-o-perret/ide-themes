@@ -32,6 +32,7 @@ Part of [ide-themes](https://github.com/natalie-o-perret/ide-themes).
 | `natalie-perret-monokai-red.icls` | `#f82a5d` |
 | `natalie-perret-monokai-white.icls` | `#f1f1f1` |
 | `natalie-perret-monokai-yellow.icls` | `#e7dc60` |
+| `natalie-perret-monokai-manjaro.icls` | `#35BF5C` (Manjaro teal-green) |
 
 ## Install
 

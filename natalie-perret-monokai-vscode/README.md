@@ -24,6 +24,7 @@ Everything else is straight Monokai Charcoal.
 | `natalie-perret-monokai-red` | `#f82a5d` |
 | `natalie-perret-monokai-white` | `#f1f1f1` |
 | `natalie-perret-monokai-yellow` | `#e7dc60` |
+| `natalie-perret-monokai-manjaro` | `#35BF5C` (Manjaro teal-green) |
 
 ## Palette
 
