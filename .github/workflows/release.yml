@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     tags:
-      - 'v*.*.*'
+      - "v*.*.*"
 
 jobs:
   build-vscode:
@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
       - run: npm install -g @vscode/vsce
       - run: vsce package
         working-directory: vscode/monokai
@@ -29,7 +29,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
         with:
-          java-version: '21'
+          java-version: "21"
           distribution: temurin
       - run: chmod +x gradlew && ./gradlew buildPlugin
         working-directory: jetbrains/monokai
@@ -53,16 +53,16 @@ jobs:
             jetbrains-zip/*.zip
 
   publish-vscode:
-    name: Publish to VS Code Marketplace
+    name: Publish to Open VSX
     needs: release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
-      - run: npm install -g @vscode/vsce
-      - run: vsce publish -p ${{ secrets.VSCE_PAT }}
+          node-version: "20"
+      - run: npm install -g ovsx @vscode/vsce
+      - run: vsce package && ovsx publish *.vsix -p ${{ secrets.OVSX_TOKEN }}
         working-directory: vscode/monokai
 
   publish-jetbrains:
@@ -73,7 +73,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
         with:
-          java-version: '21'
+          java-version: "21"
           distribution: temurin
       - run: chmod +x gradlew && ./gradlew publishPlugin
         working-directory: jetbrains/monokai
