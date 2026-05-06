@@ -1,0 +1,19 @@
+{
+  "name": "natalie-perret-monokai",
+  "displayName": "natalie-perret-monokai",
+  "description": "Personal spin on Monokai Charcoal High Contrast",
+  "version": "0.1.0",
+  "publisher": "natalie-o-perret",
+  "license": "MIT",
+  "engines": { "vscode": "^1.75.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "natalie-perret-monokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/natalie-perret-monokai.json"
+      }
+    ]
+  }
+}

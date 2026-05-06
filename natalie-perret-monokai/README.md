@@ -1,4 +1,4 @@
-# natalie-o-perret-monokai
+# natalie-perret-monokai
 
 Port of [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/items?itemName=74th.monokai-charcoal-high-contrast) (by [74th](https://github.com/74th)) to JetBrains IDEs.
 
@@ -22,7 +22,7 @@ Part of [ide-themes](https://github.com/natalie-o-perret/ide-themes).
 
 ## Install
 
-1. **Settings > Editor > Color Scheme > gear > Import Scheme**, pick `natalie-o-perret-monokai.icls`.
+1. **Settings > Editor > Color Scheme > gear > Import Scheme**, pick `natalie-perret-monokai.icls`.
 
 Or drop the file into your IDE's colors folder:
 
