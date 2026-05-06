@@ -1,4 +1,4 @@
-# natalie-perret-jetbrains
+# jetbrains/monokai
 
 Port of [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/items?itemName=74th.monokai-charcoal-high-contrast) (by [74th](https://github.com/74th)) to JetBrains IDEs.
 
@@ -45,7 +45,7 @@ Search for **natalie-perret** in **Settings > Plugins > Marketplace**. All 9 var
 Requires Java 17+.
 
 ```bash
-cd natalie-perret-jetbrains
+cd jetbrains/monokai
 ./gradlew buildPlugin
 # output: build/distributions/natalie-perret-*.zip
 ```

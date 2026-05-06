@@ -22,8 +22,8 @@ Based on [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/i
 
 Formats:
 
-- JetBrains `.icls` - [natalie-perret-jetbrains/](natalie-perret-jetbrains/)
-- VS Code `.json` - [natalie-perret-vscode/](natalie-perret-vscode/)
+- JetBrains `.icls` - [jetbrains/monokai/](jetbrains/monokai/)
+- VS Code `.json` - [vscode/monokai/](vscode/monokai/)
 
 ## License
 

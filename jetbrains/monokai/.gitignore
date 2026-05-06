@@ -1,0 +1,5 @@
+.gradle/
+build/
+dist/jar-contents/
+dist/natalie-perret-jetbrains/
+dist/natalie-perret-jetbrains.jar
