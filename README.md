@@ -1,6 +1,6 @@
 # ide-themes
 
-VS Code themes I like, ported to JetBrains IDEs, with my own personal spin.
+VS Code themes I like.
 
 ## Themes
 
