@@ -36,15 +36,25 @@ Part of [ide-themes](https://github.com/natalie-o-perret/ide-themes).
 
 ## Install
 
-1. **Settings > Editor > Color Scheme > gear > Import Scheme**, pick the `.icls` for the accent you want.
+### From the JetBrains Marketplace (coming soon)
 
-Or drop the file into your IDE's colors folder:
+Search for **natalie-perret-monokai** in **Settings > Plugins > Marketplace**. All 9 variants are included — pick one in **Settings > Editor > Color Scheme**.
 
-| OS      | Path                                                                 |
-| ------- | -------------------------------------------------------------------- |
-| Linux   | `~/.config/JetBrains/<product><version>/colors/`                     |
-| macOS   | `~/Library/Application Support/JetBrains/<product><version>/colors/` |
-| Windows | `%APPDATA%\JetBrains\<product><version>\colors\`                     |
+### Manual (build from source)
+
+Requires Java 17+.
+
+```bash
+cd natalie-perret-monokai-jetbrains
+./gradlew buildPlugin
+# output: build/distributions/natalie-perret-monokai-*.zip
+```
+
+Then in the IDE: **Settings > Plugins > gear > Install Plugin from Disk**, pick the `.zip`.
+
+### Import a single .icls
+
+Download the `.icls` you want from `src/main/resources/colors/` and import via **Settings > Editor > Color Scheme > gear > Import Scheme**.
 
 Works with IntelliJ IDEA, GoLand, Rider, WebStorm, PyCharm, RustRover, CLion, DataGrip, etc.
 
