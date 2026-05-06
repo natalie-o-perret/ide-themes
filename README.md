@@ -1,27 +1,29 @@
 # ide-themes
 
-Themes I like, ported to JetBrains IDEs, plus my own VS Code spins.
+VS Code themes I like, ported to JetBrains IDEs, with my own personal spin.
 
 ## Themes
 
-| Theme                                                                 | Based on                                                                                                                  | Format            |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| [natalie-perret-monokai-jetbrains](natalie-perret-monokai-jetbrains/) | [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/items?itemName=74th.monokai-charcoal-high-contrast) | JetBrains `.icls` |
-| [natalie-perret-monokai-vscode](natalie-perret-monokai-vscode/)       | Monokai Charcoal with personal tweaks                                                                                     | VS Code `.json`   |
+### natalie-perret-monokai
 
-## Install
+Based on [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/items?itemName=74th.monokai-charcoal-high-contrast). Personal tweaks: slightly off-black background (`#111111`), muted comments (`#9B703F`).
 
-1. Grab the `.icls` file.
-2. In the IDE: **Settings > Editor > Color Scheme > gear > Import Scheme**
-3. Pick the file and apply.
+| Variant        | Accent    |
+| -------------- | --------- |
+| cyan (default) | `#43B9D8` |
+| gray           | `#8f8f8f` |
+| green          | `#A6E22E` |
+| orange         | `#FD971F` |
+| purple         | `#AE81FF` |
+| red            | `#f82a5d` |
+| teal           | `#35BF5C` |
+| white          | `#f1f1f1` |
+| yellow         | `#e7dc60` |
 
-Or drop it straight into the colors folder:
+Formats:
 
-| OS      | Path                                                                 |
-| ------- | -------------------------------------------------------------------- |
-| Linux   | `~/.config/JetBrains/<product><version>/colors/`                     |
-| macOS   | `~/Library/Application Support/JetBrains/<product><version>/colors/` |
-| Windows | `%APPDATA%\JetBrains\<product><version>\colors\`                     |
+- JetBrains `.icls` - [natalie-perret-monokai-jetbrains/](natalie-perret-monokai-jetbrains/)
+- VS Code `.json` - [natalie-perret-monokai-vscode/](natalie-perret-monokai-vscode/)
 
 ## License
 

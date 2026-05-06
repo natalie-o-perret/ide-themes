@@ -14,32 +14,32 @@ Everything else is straight Monokai Charcoal.
 
 ## Variants
 
-| Theme label | Accent |
-|---|---|
-| `natalie-perret-monokai-cyan` | `#43B9D8` (default) |
-| `natalie-perret-monokai-gray` | `#8f8f8f` |
-| `natalie-perret-monokai-green` | `#A6E22E` |
-| `natalie-perret-monokai-orange` | `#FD971F` |
-| `natalie-perret-monokai-purple` | `#AE81FF` |
-| `natalie-perret-monokai-red` | `#f82a5d` |
-| `natalie-perret-monokai-white` | `#f1f1f1` |
-| `natalie-perret-monokai-yellow` | `#e7dc60` |
-| `natalie-perret-monokai-manjaro` | `#35BF5C` (Manjaro teal-green) |
+| Theme label                      | Accent                         |
+| -------------------------------- | ------------------------------ |
+| `natalie-perret-monokai-cyan`    | `#43B9D8` (default)            |
+| `natalie-perret-monokai-gray`    | `#8f8f8f`                      |
+| `natalie-perret-monokai-green`   | `#A6E22E`                      |
+| `natalie-perret-monokai-orange`  | `#FD971F`                      |
+| `natalie-perret-monokai-purple`  | `#AE81FF`                      |
+| `natalie-perret-monokai-red`     | `#f82a5d`                      |
+| `natalie-perret-monokai-white`   | `#f1f1f1`                      |
+| `natalie-perret-monokai-yellow`  | `#e7dc60`                      |
+| `natalie-perret-monokai-teal` | `#35BF5C` (teal) |
 
 ## Palette
 
-| Role | Color |
-|---|---|
-| Background | `#111111` |
-| Foreground | `#FFFFFF` |
-| Comment | `#9B703F` |
-| Keyword | `#F92672` |
-| String | `#E6DB74` |
-| Number / Constant | `#AE81FF` |
-| Class / Function | `#A6E22E` |
-| Type / Interface | `#66D9EF` |
-| Parameter | `#FD971F` |
-| Selection | `#6688CC` |
+| Role                 | Color     |
+| -------------------- | --------- |
+| Background           | `#111111` |
+| Foreground           | `#FFFFFF` |
+| Comment              | `#9B703F` |
+| Keyword              | `#F92672` |
+| String               | `#E6DB74` |
+| Number / Constant    | `#AE81FF` |
+| Class / Function     | `#A6E22E` |
+| Type / Interface     | `#66D9EF` |
+| Parameter            | `#FD971F` |
+| Selection            | `#6688CC` |
 | Gutter / Line number | `#43B9D8` |
 
 ## Install

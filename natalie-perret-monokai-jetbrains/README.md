@@ -22,17 +22,17 @@ Part of [ide-themes](https://github.com/natalie-o-perret/ide-themes).
 
 ## Variants
 
-| File | Accent |
-|---|---|
-| `natalie-perret-monokai.icls` | `#43B9D8` cyan (default) |
-| `natalie-perret-monokai-gray.icls` | `#8f8f8f` |
-| `natalie-perret-monokai-green.icls` | `#A6E22E` |
-| `natalie-perret-monokai-orange.icls` | `#FD971F` |
-| `natalie-perret-monokai-purple.icls` | `#AE81FF` |
-| `natalie-perret-monokai-red.icls` | `#f82a5d` |
-| `natalie-perret-monokai-white.icls` | `#f1f1f1` |
-| `natalie-perret-monokai-yellow.icls` | `#e7dc60` |
-| `natalie-perret-monokai-manjaro.icls` | `#35BF5C` (Manjaro teal-green) |
+| File                                  | Accent                         |
+| ------------------------------------- | ------------------------------ |
+| `natalie-perret-monokai.icls`         | `#43B9D8` cyan (default)       |
+| `natalie-perret-monokai-gray.icls`    | `#8f8f8f`                      |
+| `natalie-perret-monokai-green.icls`   | `#A6E22E`                      |
+| `natalie-perret-monokai-orange.icls`  | `#FD971F`                      |
+| `natalie-perret-monokai-purple.icls`  | `#AE81FF`                      |
+| `natalie-perret-monokai-red.icls`     | `#f82a5d`                      |
+| `natalie-perret-monokai-white.icls`   | `#f1f1f1`                      |
+| `natalie-perret-monokai-yellow.icls`  | `#e7dc60`                      |
+| `natalie-perret-monokai-teal.icls` | `#35BF5C` (teal) |
 
 ## Install
 
