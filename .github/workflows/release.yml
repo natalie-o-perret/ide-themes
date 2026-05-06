@@ -1,16 +1,36 @@
-name: Release
+name: cd - release
 
 on:
   push:
-    tags:
-      - "v*.*.*"
+    branches: [main]
 
 jobs:
+  tag:
+    name: tag and release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      new_tag: ${{ steps.tag.outputs.new_tag }}
+      changelog: ${{ steps.tag.outputs.changelog }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: bump version and tag
+        id: tag
+        uses: mathieudutour/github-tag-action@v6.2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          default_bump: false
+
   build-vscode:
-    name: Build VS Code extension
+    name: build vscode extension
+    needs: tag
+    if: needs.tag.outputs.new_tag != ''
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
@@ -23,10 +43,12 @@ jobs:
           path: vscode/monokai/*.vsix
 
   build-jetbrains:
-    name: Build JetBrains plugin
+    name: build jetbrains plugin
+    needs: tag
+    if: needs.tag.outputs.new_tag != ''
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: actions/setup-java@v4
         with:
           java-version: "21"
@@ -38,26 +60,27 @@ jobs:
           name: jetbrains-zip
           path: jetbrains/monokai/build/distributions/*.zip
 
-  release:
-    name: Create GitHub release
-    needs: [build-vscode, build-jetbrains]
+  github-release:
+    name: create github release
+    needs: [tag, build-vscode, build-jetbrains]
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/download-artifact@v4
-      - uses: softprops/action-gh-release@v2
+      - uses: ncipollo/release-action@v1
         with:
-          files: |
-            vscode-vsix/*.vsix
-            jetbrains-zip/*.zip
+          tag: ${{ needs.tag.outputs.new_tag }}
+          name: ${{ needs.tag.outputs.new_tag }}
+          body: ${{ needs.tag.outputs.changelog }}
+          artifacts: "vscode-vsix/*.vsix,jetbrains-zip/*.zip"
 
   publish-vscode:
-    name: Publish to Open VSX
-    needs: release
+    name: publish to open vsx
+    needs: github-release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
@@ -66,11 +89,11 @@ jobs:
         working-directory: vscode/monokai
 
   publish-jetbrains:
-    name: Publish to JetBrains Marketplace
-    needs: release
+    name: publish to jetbrains marketplace
+    needs: github-release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: actions/setup-java@v4
         with:
           java-version: "21"
