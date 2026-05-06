@@ -1,4 +1,4 @@
-# natalie-perret-monokai (VS Code)
+# natalie-perret (VS Code)
 
 Personal spin on [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/items?itemName=74th.monokai-charcoal-high-contrast) for VS Code.
 
@@ -16,15 +16,15 @@ Everything else is straight Monokai Charcoal.
 
 | Theme label                      | Accent                         |
 | -------------------------------- | ------------------------------ |
-| `natalie-perret-monokai-cyan`    | `#43B9D8` (default)            |
-| `natalie-perret-monokai-gray`    | `#8f8f8f`                      |
-| `natalie-perret-monokai-green`   | `#A6E22E`                      |
-| `natalie-perret-monokai-orange`  | `#FD971F`                      |
-| `natalie-perret-monokai-purple`  | `#AE81FF`                      |
-| `natalie-perret-monokai-red`     | `#f82a5d`                      |
-| `natalie-perret-monokai-white`   | `#f1f1f1`                      |
-| `natalie-perret-monokai-yellow`  | `#e7dc60`                      |
-| `natalie-perret-monokai-teal` | `#35BF5C` (teal) |
+| `natalie-perret-cyan`    | `#43B9D8` (default)            |
+| `natalie-perret-gray`    | `#8f8f8f`                      |
+| `natalie-perret-green`   | `#A6E22E`                      |
+| `natalie-perret-orange`  | `#FD971F`                      |
+| `natalie-perret-purple`  | `#AE81FF`                      |
+| `natalie-perret-red`     | `#f82a5d`                      |
+| `natalie-perret-white`   | `#f1f1f1`                      |
+| `natalie-perret-yellow`  | `#e7dc60`                      |
+| `natalie-perret-teal` | `#35BF5C` (teal) |
 
 ## Palette
 
@@ -47,10 +47,10 @@ Everything else is straight Monokai Charcoal.
 Not on the Marketplace yet. To use it now:
 
 1. Copy the `themes/` folder and `package.json` into your VS Code extensions folder:
-   - Linux/macOS: `~/.vscode/extensions/natalie-perret-monokai/`
-   - Windows: `%USERPROFILE%\.vscode\extensions\natalie-perret-monokai\`
+   - Linux/macOS: `~/.vscode/extensions/natalie-perret/`
+   - Windows: `%USERPROFILE%\.vscode\extensions\natalie-perret\`
 2. Restart VS Code.
-3. Pick **natalie-perret-monokai** in **File > Preferences > Color Theme**.
+3. Pick **natalie-perret** in **File > Preferences > Color Theme**.
 
 ## License
 

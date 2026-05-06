@@ -4,7 +4,7 @@ VS Code themes I like, ported to JetBrains IDEs, with my own personal spin.
 
 ## Themes
 
-### natalie-perret-monokai
+### natalie-perret
 
 Based on [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/items?itemName=74th.monokai-charcoal-high-contrast). Personal tweaks: slightly off-black background (`#111111`), muted comments (`#9B703F`).
 
@@ -22,8 +22,8 @@ Based on [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/i
 
 Formats:
 
-- JetBrains `.icls` - [natalie-perret-monokai-jetbrains/](natalie-perret-monokai-jetbrains/)
-- VS Code `.json` - [natalie-perret-monokai-vscode/](natalie-perret-monokai-vscode/)
+- JetBrains `.icls` - [natalie-perret-jetbrains/](natalie-perret-jetbrains/)
+- VS Code `.json` - [natalie-perret-vscode/](natalie-perret-vscode/)
 
 ## License
 

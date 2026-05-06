@@ -1,0 +1,37 @@
+{
+  "name": "natalie-perret",
+  "displayName": "natalie-perret",
+  "description": "Personal spin on Monokai Charcoal High Contrast — 9 accent color variants",
+  "version": "0.1.0",
+  "publisher": "natalie-o-perret",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": { "vscode": "^1.75.0" },
+  "categories": ["Themes"],
+  "keywords": ["monokai", "charcoal", "dark", "theme", "color"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natalie-o-perret/ide-themes"
+  },
+  "homepage": "https://github.com/natalie-o-perret/ide-themes/tree/main/natalie-perret-vscode",
+  "bugs": {
+    "url": "https://github.com/natalie-o-perret/ide-themes/issues"
+  },
+  "galleryBanner": {
+    "color": "#111111",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      { "label": "natalie-perret-cyan",   "uiTheme": "vs-dark", "path": "./themes/natalie-perret-cyan.json" },
+      { "label": "natalie-perret-gray",   "uiTheme": "vs-dark", "path": "./themes/natalie-perret-gray.json" },
+      { "label": "natalie-perret-green",  "uiTheme": "vs-dark", "path": "./themes/natalie-perret-green.json" },
+      { "label": "natalie-perret-orange", "uiTheme": "vs-dark", "path": "./themes/natalie-perret-orange.json" },
+      { "label": "natalie-perret-purple", "uiTheme": "vs-dark", "path": "./themes/natalie-perret-purple.json" },
+      { "label": "natalie-perret-red",    "uiTheme": "vs-dark", "path": "./themes/natalie-perret-red.json" },
+      { "label": "natalie-perret-white",  "uiTheme": "vs-dark", "path": "./themes/natalie-perret-white.json" },
+      { "label": "natalie-perret-yellow",  "uiTheme": "vs-dark", "path": "./themes/natalie-perret-yellow.json" },
+      { "label": "natalie-perret-manjaro", "uiTheme": "vs-dark", "path": "./themes/natalie-perret-manjaro.json" }
+    ]
+  }
+}

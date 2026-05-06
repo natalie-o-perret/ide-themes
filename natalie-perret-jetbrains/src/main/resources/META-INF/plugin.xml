@@ -1,0 +1,28 @@
+<idea-plugin>
+    <id>io.github.natalie-o-perret.natalie-perret</id>
+    <name>natalie-perret</name>
+    <version>0.1.0</version>
+    <vendor url="https://github.com/natalie-o-perret/ide-themes">natalie-o-perret</vendor>
+
+    <description><![CDATA[
+    Personal spin on Monokai Charcoal High Contrast, with 9 accent color variants.<br><br>
+    Background is <code>#111111</code> (off-black), comments are muted amber <code>#9B703F</code>.<br><br>
+    Variants: cyan (default), gray, green, orange, purple, red, teal, white, yellow.
+  ]]></description>
+
+    <idea-version since-build="231" />
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledColorScheme path="/colors/natalie-perret" />
+        <bundledColorScheme path="/colors/natalie-perret-gray" />
+        <bundledColorScheme path="/colors/natalie-perret-green" />
+        <bundledColorScheme path="/colors/natalie-perret-orange" />
+        <bundledColorScheme path="/colors/natalie-perret-purple" />
+        <bundledColorScheme path="/colors/natalie-perret-red" />
+        <bundledColorScheme path="/colors/natalie-perret-teal" />
+        <bundledColorScheme path="/colors/natalie-perret-white" />
+        <bundledColorScheme path="/colors/natalie-perret-yellow" />
+    </extensions>
+</idea-plugin>
