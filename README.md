@@ -1,48 +1,26 @@
-# Monokai Charcoal — IntelliJ Color Scheme
+# natalie-o-perret-ide-themes
 
-A faithful port of the [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/items?itemName=74th.monokai-charcoal-high-contrast) VS Code theme (by [74th](https://github.com/74th)) to IntelliJ IDEA and all JetBrains IDEs.
+Personal collection of IDE color scheme ports — taking VS Code themes I like and bringing them to JetBrains IDEs.
 
-## Palette
+## Themes
 
-| Role                 | Color     |
-| -------------------- | --------- |
-| Background           | `#000000` |
-| Foreground           | `#FFFFFF` |
-| Comment              | `#FD971F` |
-| Keyword              | `#F92672` |
-| String               | `#E6DB74` |
-| Number / Constant    | `#AE81FF` |
-| Class / Function     | `#A6E22E` |
-| Type / Interface     | `#66D9EF` |
-| Parameter            | `#FD971F` |
-| Selection            | `#6688CC` |
-| Gutter / Line number | `#43B9D8` |
+| Theme | Based on | IDE format |
+|---|---|---|
+| [natalie-o-perret-monokai](natalie-o-perret-monokai/) | [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/items?itemName=74th.monokai-charcoal-high-contrast) | JetBrains `.icls` |
 
-## Installation
+## Installation (JetBrains)
 
-### Manual import (recommended)
+1. Download the `.icls` file for the theme you want.
+2. **Settings → Editor → Color Scheme → ⚙ → Import Scheme…**
+3. Select the file and apply.
 
-1. Copy `Monokai Charcoal.icls` anywhere on your machine.
-2. In your JetBrains IDE open **Settings → Editor → Color Scheme**.
-3. Click the gear icon **⚙** → **Import Scheme…**
-4. Select the `.icls` file.
-5. Apply.
+Or drop it directly into your IDE's colors folder:
 
-### Via the IDE settings folder
-
-Alternatively, drop the `.icls` file into your IDE's color schemes directory:
-
-| OS      | Path                                                                 |
-| ------- | -------------------------------------------------------------------- |
-| Linux   | `~/.config/JetBrains/<product><version>/colors/`                     |
-| macOS   | `~/Library/Application Support/JetBrains/<product><version>/colors/` |
-| Windows | `%APPDATA%\JetBrains\<product><version>\colors\`                     |
-
-Restart the IDE and pick **Monokai Charcoal** in **Settings → Editor → Color Scheme**.
-
-## Compatibility
-
-Works with all JetBrains products: IntelliJ IDEA, GoLand, Rider, WebStorm, PyCharm, RustRover, CLion, DataGrip, etc.
+| OS | Path |
+|---|---|
+| Linux | `~/.config/JetBrains/<product><version>/colors/` |
+| macOS | `~/Library/Application Support/JetBrains/<product><version>/colors/` |
+| Windows | `%APPDATA%\JetBrains\<product><version>\colors\` |
 
 ## License
 
