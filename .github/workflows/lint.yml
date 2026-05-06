@@ -18,6 +18,7 @@ jobs:
     uses: natalie-o-perret/.github/.github/workflows/reusable-lint-files-md.yml@main
 
   conventional-commits:
+    if: github.event_name == 'pull_request'
     uses: natalie-o-perret/.github/.github/workflows/reusable-lint-commits-conventional.yml@main
     permissions:
       pull-requests: read
