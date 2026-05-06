@@ -1,5 +1,5 @@
 .gradle/
 build/
 dist/jar-contents/
-dist/natalie-perret-jetbrains/
-dist/natalie-perret-jetbrains.jar
+dist/natalie-perret-monokai/
+dist/natalie-perret-monokai.jar
