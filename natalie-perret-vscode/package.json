@@ -3,7 +3,7 @@
   "displayName": "natalie-perret",
   "description": "Personal spin on Monokai Charcoal High Contrast — 9 accent color variants",
   "version": "0.1.0",
-  "publisher": "natalie-o-perret",
+  "publisher": "natalie-perret",
   "license": "MIT",
   "icon": "icon.png",
   "engines": { "vscode": "^1.75.0" },
