@@ -1,0 +1,12 @@
+name: ci - copilot - code review
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, reopened]
+
+jobs:
+  copilot-review:
+    uses: natalie-o-perret/.github/.github/workflows/reusable-copilot-review.yml@main
+    permissions:
+      pull-requests: write
