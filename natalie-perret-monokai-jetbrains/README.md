@@ -20,9 +20,22 @@ Part of [ide-themes](https://github.com/natalie-o-perret/ide-themes).
 | Selection            | `#6688CC` |
 | Gutter / Line number | `#43B9D8` |
 
+## Variants
+
+| File | Accent |
+|---|---|
+| `natalie-perret-monokai.icls` | `#43B9D8` cyan (default) |
+| `natalie-perret-monokai-gray.icls` | `#8f8f8f` |
+| `natalie-perret-monokai-green.icls` | `#A6E22E` |
+| `natalie-perret-monokai-orange.icls` | `#FD971F` |
+| `natalie-perret-monokai-purple.icls` | `#AE81FF` |
+| `natalie-perret-monokai-red.icls` | `#f82a5d` |
+| `natalie-perret-monokai-white.icls` | `#f1f1f1` |
+| `natalie-perret-monokai-yellow.icls` | `#e7dc60` |
+
 ## Install
 
-1. **Settings > Editor > Color Scheme > gear > Import Scheme**, pick `natalie-perret-monokai.icls`.
+1. **Settings > Editor > Color Scheme > gear > Import Scheme**, pick the `.icls` for the accent you want.
 
 Or drop the file into your IDE's colors folder:
 

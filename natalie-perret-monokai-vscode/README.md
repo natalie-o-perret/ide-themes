@@ -8,8 +8,22 @@ Part of [ide-themes](https://github.com/natalie-o-perret/ide-themes).
 
 - Background is `#111111` instead of pure black (bit softer on the eyes)
 - Comments are `#9B703F` (muted amber) instead of `#FD971F` so they don't compete visually with function parameters
+- All 8 accent color variants from the original are included
 
 Everything else is straight Monokai Charcoal.
+
+## Variants
+
+| Theme label | Accent |
+|---|---|
+| `natalie-perret-monokai-cyan` | `#43B9D8` (default) |
+| `natalie-perret-monokai-gray` | `#8f8f8f` |
+| `natalie-perret-monokai-green` | `#A6E22E` |
+| `natalie-perret-monokai-orange` | `#FD971F` |
+| `natalie-perret-monokai-purple` | `#AE81FF` |
+| `natalie-perret-monokai-red` | `#f82a5d` |
+| `natalie-perret-monokai-white` | `#f1f1f1` |
+| `natalie-perret-monokai-yellow` | `#e7dc60` |
 
 ## Palette
 
