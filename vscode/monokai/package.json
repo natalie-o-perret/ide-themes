@@ -29,9 +29,9 @@
       { "label": "natalie-perret-orange", "uiTheme": "vs-dark", "path": "./themes/natalie-perret-orange.json" },
       { "label": "natalie-perret-purple", "uiTheme": "vs-dark", "path": "./themes/natalie-perret-purple.json" },
       { "label": "natalie-perret-red",    "uiTheme": "vs-dark", "path": "./themes/natalie-perret-red.json" },
+      { "label": "natalie-perret-teal",   "uiTheme": "vs-dark", "path": "./themes/natalie-perret-teal.json" },
       { "label": "natalie-perret-white",  "uiTheme": "vs-dark", "path": "./themes/natalie-perret-white.json" },
-      { "label": "natalie-perret-yellow",  "uiTheme": "vs-dark", "path": "./themes/natalie-perret-yellow.json" },
-      { "label": "natalie-perret-manjaro", "uiTheme": "vs-dark", "path": "./themes/natalie-perret-manjaro.json" }
+      { "label": "natalie-perret-yellow",  "uiTheme": "vs-dark", "path": "./themes/natalie-perret-yellow.json" }
     ]
   }
 }
