@@ -1,4 +1,4 @@
-# natalie-perret-monokai
+# natalie-perret-monokai-jetbrains
 
 Port of [Monokai Charcoal High Contrast](https://marketplace.visualstudio.com/items?itemName=74th.monokai-charcoal-high-contrast) (by [74th](https://github.com/74th)) to JetBrains IDEs.
 
