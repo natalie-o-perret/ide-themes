@@ -14,17 +14,17 @@ Everything else is straight Monokai Charcoal.
 
 ## Variants
 
-| Theme label                      | Accent                         |
-| -------------------------------- | ------------------------------ |
-| `natalie-perret-cyan`    | `#43B9D8` (default)            |
-| `natalie-perret-gray`    | `#8f8f8f`                      |
-| `natalie-perret-green`   | `#A6E22E`                      |
-| `natalie-perret-orange`  | `#FD971F`                      |
-| `natalie-perret-purple`  | `#AE81FF`                      |
-| `natalie-perret-red`     | `#f82a5d`                      |
-| `natalie-perret-white`   | `#f1f1f1`                      |
-| `natalie-perret-yellow`  | `#e7dc60`                      |
-| `natalie-perret-teal` | `#35BF5C` (teal) |
+| Theme label                      | Accent              |
+| -------------------------------- | ------------------- |
+| `natalie-perret-cyan`            | `#43B9D8` (default) |
+| `natalie-perret-gray`            | `#8f8f8f`           |
+| `natalie-perret-green`           | `#A6E22E`           |
+| `natalie-perret-orange`          | `#FD971F`           |
+| `natalie-perret-purple`          | `#AE81FF`           |
+| `natalie-perret-red`             | `#f82a5d`           |
+| `natalie-perret-teal`            | `#35BF5C`           |
+| `natalie-perret-white`           | `#f1f1f1`           |
+| `natalie-perret-yellow`          | `#e7dc60`           |
 
 ## Palette
 
