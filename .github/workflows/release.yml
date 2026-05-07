@@ -35,7 +35,11 @@ jobs:
         with:
           node-version: "20"
       - run: npm install -g @vscode/vsce
-      - run: vsce package
+      - run: |
+          VERSION="${{ needs.tag.outputs.new_tag }}"
+          VERSION="${VERSION#v}"
+          npm version "$VERSION" --no-git-tag-version
+          vsce package
         working-directory: vscode/monokai
       - uses: actions/upload-artifact@v5
         with:
@@ -53,7 +57,11 @@ jobs:
         with:
           java-version: "21"
           distribution: temurin
-      - run: chmod +x gradlew && ./gradlew buildPlugin
+      - run: |
+          VERSION="${{ needs.tag.outputs.new_tag }}"
+          VERSION="${VERSION#v}"
+          sed -i "s/^version = \".*\"/version = \"$VERSION\"/" build.gradle.kts
+          chmod +x gradlew && ./gradlew buildPlugin
         working-directory: jetbrains/monokai
       - uses: actions/upload-artifact@v5
         with:
@@ -80,17 +88,19 @@ jobs:
     needs: github-release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/download-artifact@v5
+        with:
+          name: vscode-vsix
+          path: .
       - uses: actions/setup-node@v5
         with:
           node-version: "20"
-      - run: npm install -g ovsx @vscode/vsce
-      - run: vsce package && ovsx publish *.vsix -p ${{ secrets.OVSX_TOKEN }}
-        working-directory: vscode/monokai
+      - run: npm install -g ovsx
+      - run: ovsx publish *.vsix -p ${{ secrets.OVSX_TOKEN }}
 
   publish-jetbrains:
     name: publish to jetbrains marketplace
-    needs: github-release
+    needs: [tag, github-release]
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
@@ -99,7 +109,11 @@ jobs:
         with:
           java-version: "21"
           distribution: temurin
-      - run: chmod +x gradlew && ./gradlew publishPlugin
+      - run: |
+          VERSION="${{ needs.tag.outputs.new_tag }}"
+          VERSION="${VERSION#v}"
+          sed -i "s/^version = \".*\"/version = \"$VERSION\"/" build.gradle.kts
+          chmod +x gradlew && ./gradlew publishPlugin
         working-directory: jetbrains/monokai
         env:
           JETBRAINS_TOKEN: ${{ secrets.JETBRAINS_TOKEN }}
